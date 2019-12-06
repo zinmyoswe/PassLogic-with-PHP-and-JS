@@ -1,3 +1,8 @@
+<?php include("confs/config.php"); 
+
+$w1 = $_REQUEST['w1'];
+
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,8 +29,9 @@
   </button>
 </div>
 
-		 <a href="" class="btn btn-primary">Change Password</a>
+		 <a href="chg_pass.php" class="btn btn-primary">Change Password</a>
 		 <a href="index.html" class="btn btn-outline-primary">Logout</a>
+     <h1><?php echo $w1 ?></h1>
     		</div>
     	</div>
     </div>
