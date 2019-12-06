@@ -1,0 +1,198 @@
+html {-ms-touch-action: manipulation;}
+
+.cboth{
+	clear:both;
+}
+
+.clearfix:after{
+	content: "";
+	display:block;
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+.inline_bottom{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+/* basic setting */
+body{
+	font-size:medium;
+	color:#333;
+	margin:0;
+	padding:0;
+	font-family:"Lucida Grande", "segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, Verdana, Arial, sans-serif;
+	background-color:#f3f3f3;
+}
+
+input {
+	padding: 3px;
+}
+
+img {
+	vertical-align:bottom;
+}
+
+/* header */
+#header{
+	width:100%;
+	height:55px;
+	background:url("back_header.jpg") repeat-x;
+	padding:13px 0 0 0;
+}
+
+#messagebox{
+	color:#3a87ad;
+	background-color:#d9edf7;
+	border-color:#bce8f1;
+	margin-bottom:10px;
+	display: none;
+	padding: 5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/* randamNumbar */
+#randamNumbar{
+	width:100%;
+	margin:0 auto;
+}
+
+.passlogic_css_text {
+	width:200px;
+	height:26px;
+	margin:0 10px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-appearance:none;
+	border:1px solid #CCC;
+}
+
+.passlogic_css_password {
+	width:200px;
+	height:26px;
+	margin:0 10px 0 0;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-webkit-appearance:none;
+	border:1px solid #CCC;
+}
+
+/* form */
+#formArea{
+	margin:0 auto;
+}
+
+.passwordText{
+
+}
+
+#formBox{
+	margin:8px 0 0 0;
+}
+
+.formBoxFloat{
+	float:left;
+}
+
+input.passwordForm:focus {
+	outline: 1px solid #F90;
+}
+
+.passlogic_css_submit {
+	height:30px;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 10px;
+	margin:0 0 5px 0;
+	border:1px solid #e56c10;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#e56c10', endColorstr = '#f99333');
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#fadd6b', endColorstr = '#f99333')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	background-image: -moz-linear-gradient(top, #e56c10, #f99333);
+	background-image: -ms-linear-gradient(top, #e56c10, #f99333);
+	background-image: -o-linear-gradient(top, #e56c10, #f99333);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#e56c10), to(#f99333));
+	background-image: -webkit-linear-gradient(top, #e56c10, #f99333);
+	background-image: linear-gradient(top, #e56c10, #f99333);
+	/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+}
+
+/* footer */
+#footer{
+	width:100%;
+	height:55px;
+	margin:50px 0 0 0;
+	background:url("back_footer.jpg") repeat-x;
+	clear:both;
+}
+
+.copyrights{
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+.login-text {
+	margin:0 0 10px 0;
+}
+
+.error-text {
+	color: red;
+	font-weight: bold;
+	margin:15px 0px;
+}
+
+/* app list */
+H3 {
+	border-left:1px solid #CCC;
+	border-top:1px solid #CCC;
+	border-right:1px solid #CCC;
+	background-color:#E3E3E3;
+	padding:2px;
+	border-radius:5px 0 0 0;
+	-moz-border-radius:5px 0 0 0;
+	-webkit-border-radius:5px 0 0 0;
+}
+
+.app-list {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.app-list li {
+	border:1px solid #CCC;
+	margin-top:-1px;
+	border-radius:0 0 10px 0;
+	-moz-border-radius:0 0 10px 0;
+	-webkit-border-radius:0 0 10px 0;
+	background:url("arrow-black.png") no-repeat 4px 13px;
+}
+
+.app-list li a{
+	text-decoration:none;
+	display:block;
+	padding: 10px 10px 10px 18px;
+	border-radius:0 0 10px 0;
+	-moz-border-radius:0 0 10px 0;
+	-webkit-border-radius:0 0 10px 0;
+}
+
+.app-list li a:hover{
+	background:#d6e5f5 url("arrow-yellow.png") no-repeat 4px 13px;
+}

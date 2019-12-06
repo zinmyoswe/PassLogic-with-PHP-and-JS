@@ -1,0 +1,209 @@
+#titleArea{
+	width:96%;
+	margin:0 auto;
+}
+
+#contents {
+	margin:0 auto;
+	width:96%;
+	max-width:900px;
+	text-align:left;
+	background-color:transparent;
+}
+
+.randamNumbarWidth{
+	width:100%;
+}
+
+#randamNumbarTableLeft{
+	background-color:#E3E3E3;
+	padding:2px;
+}
+
+#randamNumbarTableCenter{
+	background-color:#C9C9C9;
+	padding:2px;
+}
+
+#randamNumbarTableRight{
+	background-color:#E3E3E3;
+	padding:2px;
+}
+
+.randamNumberBox{
+	float:left;
+	margin:10px 10px 0 0;
+}
+
+.randamNumberBoxRadius{
+	border:1px solid #CCC;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-align:center;
+	padding:0px 0;
+	margin:0px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.randamNumberBoxRadius p {
+	font-size:xx-large;
+}
+
+.secured{
+	text-align:right;
+	font-size:medium;
+}
+
+/* soft key */
+#softkey{
+	margin:15px 0 0 3px;
+}
+
+.keyboardNum{
+	width:45px;
+	height:45px;
+	background-color:#fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	position:relative;
+	border: 1px solid #fff;
+}
+
+.keyboardNumInner {
+	position:absolute;
+	top:-3px;
+	left:-3px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #999;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#d2d2d2');
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#d2d2d2')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+/*	background-image: -moz-linear-gradient(top, #ffffff, #d2d2d2);
+	background-image: -ms-linear-gradient(top, #ffffff, #d2d2d2);
+	background-image: -o-linear-gradient(top, #ffffff, #d2d2d2);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ffffff), to(#d2d2d2));
+	background-image: -webkit-linear-gradient(top, #ffffff, #d2d2d2);
+	background-image: linear-gradient(top, #ffffff, );*/
+	/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-size:xx-large;
+	padding:10px 0 0 0;
+	cursor: pointer;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+
+	border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.keyboardNumInner p {
+	font-size: 40px;
+}
+
+.numbar{
+	display:block;
+	width:50px;
+	height:50px;
+	float:left;
+	margin:0.5rem 0.5rem;
+	padding:0 0 10px 0;
+	
+}
+
+.delBox{
+	width:70px;
+	height:50px;
+	background-color:#fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	position:relative;
+
+}
+
+.delBoxInner {
+	position:absolute;
+	top:-2px;
+	left:-2px;
+    width: 70px;
+    height: 50px;
+	padding:8px 0 0 0;
+    text-align: center;
+	background-color: #000;
+	border: 1px solid #000;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#757575', endColorstr = '#141414');
+	/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#757575', endColorstr = '#141414')";
+	/*Element must have a height (not auto)*/
+	/*All filters must be placed together*/
+/*	background-image: -moz-linear-gradient(top, #757575, #141414);
+	background-image: -ms-linear-gradient(top, #757575, #141414);
+	background-image: -o-linear-gradient(top, #757575, #141414);
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#757575), to(#141414));
+	background-image: -webkit-linear-gradient(top, #757575, #141414);
+	background-image: linear-gradient(top, #757575, #141414);*/
+	/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+/*	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	font-size:xx-large;
+	color:#ffffff;
+	cursor: pointer;
+	user-select:none;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;*/
+	
+	color: #fff;
+	border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+.del{
+	display:block;
+	width:81px;
+	height:54px;
+	float:left;
+	margin:0 10px 10px 0;
+	margin-top: 10px;
+
+
+}
